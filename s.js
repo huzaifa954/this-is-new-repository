@@ -1,8 +1,11 @@
 var students=["ali","zeeshan","ahmed"]
 students.push("qosain")
-students.unshift("li");
+students.shift();
 //students.pop();
 console.log(students)
+students.splice(2,0)
+console.log(students)
+
 // console.log(students)
 console.log(students[0])
 console.log(students[4])
