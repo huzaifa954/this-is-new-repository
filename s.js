@@ -1,24 +1,29 @@
-var students=["ali","zeeshan","ahmed"]
-students.push("qosain")
-students.shift();
-//students.pop();
-console.log(students)
-students.splice(2,0)
-console.log(students)
+var s=["huzaifa","subhan","ahmed","azan"]
+console.log(s)
+s.push("niazi-")
+console.log(s)
+s.shift("")
+console.log(s)
+s.unshift()
+console.log(s)
 
-// console.log(students)
-console.log(students[0])
-console.log(students[4])
-let h=(25)
-let u=(22)
-//if (condition) {
-    
-//} else {
-    
-    //}
- if(h===u){
-    alert(true)
-}
-else{
-alert(false)
+var y=["a","b","c","d","e"]
+console.log(y)
+y.splice(1,2,"op")
+console.log(y)
+var z=["a","b","c","d","e"]
+console.log(z)
+var f=z.slice(1,3)
+console.log(f)
+
+
+
+
+
+
+
+
+for(let i = 0; i<= 100;i++){
+    console.log("2"+"x"+i +"="+2*i)
+    // alert(i)
 }
